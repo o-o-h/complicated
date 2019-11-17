@@ -13,7 +13,7 @@ p.track span {
 }
 button {
   background-color: rgba(60, 60, 60, 0);
-  color: #efad64;border:0;
+  color: #252525;border:0;
   text-align: center;
   vertical-align: middle;
   transition: all 0.5s ease 0;
@@ -34,7 +34,7 @@ button[data-am-button^="small"] i {
   font-size: 14px;
 }
 button:hover {
-  color: #252525;
+  color: #efad64;
 }
 button:focus {
   outline: none;
