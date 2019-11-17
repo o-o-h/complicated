@@ -5,7 +5,8 @@
   -webkit-box-sizing: border-box;
 }
 
-body {
+body { width:100%;height:100%;
+  text-align: center;
   background:#323cb4;width: 100%;
   overflow: hidden;cursor:grab;
 font-family: itc-benguiat, serif;
@@ -67,3 +68,15 @@ a:link {text-decoration: none;color:#efad64;}
 a:visited {text-decoration: none;color:#efad64;}
 a:hover {text-decoration: underline;color:#efad64;}
 .underline {text-decoration:underline;color:#efad64;}
+
+
+@media only screen and (max-width:600px)
+{.title{font-size:2em;}
+.othertracks {position:fixed;font-size:1em;top:50%;right:-45%;width:100%;z-index:3;transform: rotate(90deg);}
+.rsvg svg{height:100%;width:auto;position:absolute;left:-50%;}
+    .block {width: 6%; padding: 6%;}
+}
+
+
+
+
